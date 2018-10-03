@@ -8,6 +8,8 @@
     font-family: fonte1;
     src: url(LuloCleanOneBold.otf)
 }
+
+
 /* nav */
 
 img{
@@ -46,13 +48,11 @@ a{
     color: #FFFFFF;
 }
 aside{
+  
     display: flex;
     align-items: center;
     justify-content:flex-end ;
     width: 28%;
-}
-aside img {
-    display: none;
 }
 
 /* sect2 */
@@ -61,6 +61,7 @@ header{
     background-color: #FC736B;
     height: 55vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
@@ -69,80 +70,92 @@ h1{
    
     font-family: fonte1;
     color: white;
-    font-size: 80px;
+    font-size: 65pt;
 }
-/* sect3 */
-.terceira{
+h2{
+    font-family: fonte1;
+    color: white;
+    font-size: 10pt
+}
+/* sect 3 */
+.meio{
     display: flex;
+    height: 85vh;
     justify-content: center;
-    text-align: center;
-    margin-top: 2%;
-    
-}
-.article1 {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    background-color: #eff1f4;
-    border-radius: 15px;
-    width: 40%;
-}
-.article1 p {
-    font-size: 12pt;
-    margin: 5%;
-}
-.article2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #eff1f4;
-    margin-left: 15px;
-    border-radius: 15px;
-    width: 40%;
-}
-.article2 p {
-    font-size: 12pt;
-    margin: 5%;
-}
-/* sect 4 */
-.quarta{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 10px;
-    height: 35vh;
-}
-.article3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #eff1f4;
-    border-radius: 15px;
-    width: 40%;
-}
-.article3 p {
-    font-size: 12pt;
-    margin: 5%;
-}
-.article4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #eff1f4;
-    margin-left: 15px;
-    border-radius: 15px;
-    width: 40%;
+
 
 }
-.article4 p {
-    font-size: 12pt;
+
+form{
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: white;   
+    border: 2px solid #5D5C5C;
+    width: 60%;
+    height: 85%;
+    justify-content: center;
+
+
+}
+form p {
+    margin: 10px;
+}
+textarea{
+    height: 130px;
+}
+input, textarea{
+    width: 600px;
+    padding: 10px;
+
+}
+section form h2{
+    font-size: 14pt;
+    color: black;
+    border-bottom: 2px solid #FC736B;
     margin: 5%;
 }
-section article img {
-    margin-top: 10px ;
-    width: 120px;
-    height: 120px;
+.enviar input{
+    background-color: #FC736B;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
 }
+/* contato */
+
+.article1{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #5D5C5C;
+    border-radius: 15px;
+    margin: 5%;
+    width: 445px;
+    height: 126px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px;
+    margin-left: 220px;
+    
+}
+.a{
+    color: #FC736B;
+    border-bottom: 1px solid #5D5C5C;
+    font-family: fonte1;
+    font-size: 12pt;
+}
+.b{
+    margin: 2%;
+    font-family: fonte1;
+    font-size: 9px;
+}
+.c{
+    font-family: fonte1;
+    font-size: 9px;
+}
+
 /* footer */
 
 footer{
@@ -168,8 +181,6 @@ footer{
 footer input {
     margin: 5px 5px 5px 5px;
     border: 2px solid #5D5C5C;
-    width: 98%;
-    height: 30px;
 }
 
 footer div p{
@@ -190,26 +201,16 @@ footer div p{
 
     background-color: #FC736B;
     color: white;
-    margin-left: 32px;
+    margin-left: 33px;
     border: 2px solid #C95955;
     text-transform: uppercase;
     font-family: fonte1;
     font-weight: bold;
     width: 90%
 }
-.cred{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-.creditos{
-    font-size: 6pt;
-    color: black;
-    margin-top: 160px;
-    margin-right: -100%; 
-}
+
 /* final footer*/
+
 .finalb{
     background-color: white;
     height: 5vh;

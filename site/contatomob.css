@@ -1,0 +1,176 @@
+
+@media (max-width: 740px){
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: fonte1;
+    src: url(LuloCleanOneBold.otf);
+}
+    
+/* nav */
+
+img{
+    width: 40px;
+    height: 40px;
+}
+nav{
+    display: flex;
+    font-family: fonte1;
+    font-size: 8pt;
+    background-color: #444343;
+    height: 10vh;
+    width: 100%;
+}
+nav ul {
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    width: 50%;
+    margin-left: 9%;
+        
+        
+}
+nav ul li{
+        
+    margin: 15px;
+        
+}
+a :hover{
+    color:blue;   
+}
+a{
+    background-color: #eff1f4;
+    color: blue;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+aside{
+  display: none;
+}
+
+ /* sect1 */
+
+header{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: fonte1;
+    height: 45vh;
+    background-color: blue;
+}
+h1{
+    font-size: 20pt;
+
+}
+h2{
+    font-size: 8pt;
+} 
+
+    /* meio */
+
+.meio {
+    height: 68vh;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh
+}
+form{
+    margin-left: 0px;
+    margin-top: 15px;
+    border: 2px solid gray;
+    width: 85%;
+    height: 65vh;
+}
+form h2{
+    font-family: fonte1;
+    font-size: 8pt;
+    margin: 7px 7px 7px 7px;
+    margin-left: 10px;
+    border-bottom: 1px solid blue;
+}
+textarea{
+    height: 110px;
+}
+input, textarea{
+    width: 280px;
+    margin: 3px;
+    padding: 10px;
+}
+.enviar input{
+    background-color: blue;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+    /* contato */
+.article1{
+    display: none;
+} 
+
+    /* footer*/
+    
+footer{
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: blue;
+    font-family: fonte1;
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+}
+.fundofooter{
+    margin: 5%;
+    background-color: white;
+    border: 3px solid #5D5C5C;
+    height: 90%;
+}
+footer input {
+    margin-left: px;
+    width: 97%;
+    border: 2px solid #5D5C5C;
+    padding: 4px;
+}
+footer div p{
+    margin-left: 15px;
+    color: blue;
+    font-weight: bold;
+    font-size: 10pt;
+}
+.sub {
+    text-align: left;
+    font-weight: bold;
+    font-size: 7pt;
+    margin-left: 45px;
+}
+.botao{
+
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-family: fonte1;
+    font-weight: bold;
+    width: 85%;
+    margin-left: 25px; 
+    padding: 4px;
+}
+
+/* final footer*/
+.finalb{
+    background-color: white;
+    height: 5vh;
+}

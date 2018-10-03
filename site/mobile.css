@@ -1,22 +1,22 @@
 
-@media (max-width: 360px){
+@media (max-width: 740px){
 *{
     margin: 0px;
-   padding: 0px;
-   box-sizing: border-box;
+    padding: 0px;
+    box-sizing: border-box;
 }
-body{
-    background-color: 
+@font-face {
+    font-family: fonte1;
+    src: url(LuloCleanOneBold.otf);
 }
 nav{
     background-color: #444343;;
     border: none;
 }  
 nav ul{
-    margin-left: 65px;
+    margin-left: 38px;
     width: 65%;
     
-
 }
 a{
     background-color: #eff1f4;
@@ -31,7 +31,7 @@ aside{
     display: none
 }
 header{
-    height: 45vh;
+    height: 25vh;
     background-color: blue;
 }
 h1{
@@ -44,6 +44,10 @@ h1{
     font-family: sans-serif;
 
 }
+.terceira img {
+    width: 50px;
+    height: 50px;
+}
 
 .article1 {
     margin-left: 4px;
@@ -52,7 +56,7 @@ h1{
     flex-direction: column;
     background-color:#eff1f4;
     align-items: center;
-    width: 25%;
+    width: 45%;
 
 }
 .article1 p {
@@ -70,7 +74,7 @@ h1{
     flex-direction: column;
     background-color:#eff1f4;
     align-items: center;
-    width: 25%;
+    width: 45%;
 
 }
 .article2 p {
@@ -79,6 +83,14 @@ h1{
     font-size: 8pt;
     margin: 5px;
 }
+.quarta{
+    height: 40%;
+    font-family: sans-serif;
+}
+.quarta img {
+    width: 50px;
+    height: 50px;
+}
 .article3 {
     margin-left: 4px;
     border-radius: 10px;
@@ -86,7 +98,8 @@ h1{
     flex-direction: column;
     background-color:#eff1f4;
     align-items: center;
-    width: 25%;
+    width: 45%;
+    height: 75%;
 
 }
 .article3 p {
@@ -102,7 +115,8 @@ h1{
     flex-direction: column;
     background-color:#eff1f4;
     align-items: center;
-    width: 25%;
+    width: 45%;
+    height: 75%;
     margin-right: 3px;
 
 }
@@ -112,9 +126,51 @@ h1{
     font-size: 8pt;
     margin: 5px;
 }
-img{
-    margin-top: 5px;
-    border: 1px solid black;
-    border-radius: 100%;
-}
+/* footer*/
 
+footer{
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: blue;
+    font-family: fonte1;
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    height: 25vh;
+}
+.fundofooter{
+    margin: 5%;
+    background-color: white;
+    border: 3px solid #5D5C5C;
+    height: 90%;
+}
+footer input {
+    margin-left: px;
+    width: 97%;
+    border: 2px solid #5D5C5C;
+    padding: 4px;
+}
+footer div p{
+    margin-left: 15px;
+    color: blue;
+    font-weight: bold;
+    font-size: 10pt;
+}
+.sub {
+    text-align: left;
+    font-weight: bold;
+    font-size: 7pt;
+    margin-left: 45px;
+}
+.botao{
+
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-family: fonte1;
+    font-weight: bold;
+    width: 85%;
+    margin-left: 25px; 
+    padding: 4px;
+}
